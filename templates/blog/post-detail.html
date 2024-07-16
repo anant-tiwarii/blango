@@ -12,4 +12,9 @@
         {{ post.content|safe }}
     </div>
 {% endrow %}
+{% row %}
+    <div class="col">
+        {% include "blog/post-comments.html" %}
+    </div>
+{% endrow %}
 {% endblock %}
